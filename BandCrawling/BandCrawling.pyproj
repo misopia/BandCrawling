@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>43508e91-8168-4aa7-a434-30b193a0789e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>BandCrawling.py</StartupFile>
+    <StartupFile>ExcelDataMerge.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ExcelDataMerge.py" />
     <Compile Include="BandCrawling.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
